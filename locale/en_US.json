@@ -1,0 +1,46 @@
+{
+    "radio": {
+        "noVC": "🚫 **I can't join because you are not in a voice channel!**",
+        "joined": "👍 **Joined** `%s`**. Bounded to** %s",
+        "playing": "▶️ **Now Playing**: `%s`\n**Length: ** `%s`",
+        "leaved": "🚪 **Leaved!**",
+        "leave_noVC": "🚫 **I can't leave out of nowhere!**",
+        "queue": {
+            "add": "👍 `%s` **was added to the queue!**",
+            "embedName": "Queue for `%s`",
+            "info": "%s | %s"
+        },
+        "skipped": "👍 **Skipped!**",
+        "paused": "⏸️ **Paused!**",
+        "resumed": "▶️ **Resumed!**",
+        "notFound": "🚫 `%s` **not found!**",
+        "settings": {
+            "key": {
+                "notSpecified": "🚫 **Please specify the key!**",
+                "notFound": "🚫 **Key not found!**",
+                "volume": {
+                    "current": "🎵 **Current volume is %s%**",
+                    "set": "🎵 **Set volume to %s%**"
+                },
+                "loop": {
+                    "true": "🔂 **Loop is enabled!**",
+                    "false": "🔂 **Loop is disabled!**"
+                }
+            }
+        },
+        "lyrics": {
+            "wait": "⏰ **Please wait...**",
+            "for": "Lyrics for `%s`",
+            "notFound": "🚫 **Lyrics not found!**"
+        }
+    },
+    "help": {
+        "embedName": "Help",
+        "description": "Description: ",
+        "noDescription": "No description",
+        "aliases": "Aliases: ",
+        "noAliases": "No aliases",
+        "notFound": "Command `%s` not found",
+        "notFoundHelp": "Type `%s` for the command list"
+    }
+}

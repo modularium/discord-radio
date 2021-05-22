@@ -1,0 +1,26 @@
+{
+  "name": "discord-radio",
+  "version": "1.0.0",
+  "description": "@modularium/discord music bot",
+  "main": "index.js",
+  "repository": "https://github.com/modularium/discord-radio.git",
+  "author": "redcarti <ppamperr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "@modularium/discord": "^0.1.26",
+    "discord-ytdl-core": "^5.0.3",
+    "ffmpeg-static": "^4.3.0",
+    "genius-lyrics-api": "^3.0.6",
+    "youtube-search": "^1.1.6",
+    "youtubei": "^0.0.1-rc.14",
+    "ytdl-core": "^4.7.0"
+  },
+  "scripts": {
+    "prodInstall": "npm install --only=prod",
+    "devInstall": "npm install"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.2"
+  }
+}
